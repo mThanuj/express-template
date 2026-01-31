@@ -5,9 +5,12 @@
     "rootDir": "./",
     "esModuleInterop": true,
     "paths": {
-      "@/*": ["./src/*"]
-    }
+      "@/*": ["src/*"]
+    },
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "baseUrl": "."
   },
-  "include": ["src/**/*"],
+  "include": ["**/*.ts"],
   "exclude": ["dist"]
 }
